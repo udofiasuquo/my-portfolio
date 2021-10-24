@@ -335,7 +335,7 @@ footer {
   /* how to make hamburger menu */
   nav ul {
     position: fixed;
-    background-color: var(--bg-color);
+    background-color: #000;
     flex-direction: column;
     top: 86px;
     left: 10%;
@@ -346,8 +346,15 @@ footer {
   }
   
   nav ul li {
+   
     margin: 8px;
   }  
+
+  ul li a {
+   color: #fff;
+  }
+
+  
 
   .burger-menu {
     display: block;
