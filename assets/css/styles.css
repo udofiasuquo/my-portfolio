@@ -105,8 +105,10 @@
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 37.5rem;
+    height: 17.5rem;
+    width: 17.5rem;
+    border-radius: 10px;
+    margin-right: 10rem;
   }
 
   .bio {
@@ -118,6 +120,7 @@
 
   .bio h1 {
     margin-bottom: var(--bottom-margin);
+    color: red;
   }
 
   .bio p {
@@ -419,16 +422,28 @@ footer {
 /* Smaller Phones */
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
-    width: 23rem;
+    height: 17.5rem;
+    width: 13rem;
+    margin: 5rem;
+     border: 5px solid grey;
+    
   }
 
   .bio {
-    width: 18.3rem;
+    width: 16.3rem;
+   
+    margin-top: -3rem; 
   }
 
   .project-container {
     width: 17.875rem;
+  }
+
+  .projects-title {
+    font-size: -2rem;
+     border: 5px solid grey;
+     color: red;
+
   }
 
   .contact-form-container {
